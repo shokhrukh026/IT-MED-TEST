@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+/* 
+----------------
+Template Name: Test Website
+Author: Shokhrukh
+Author Email: shokhrukh024@gmail.com
+Version: 1.0.0
+----------------
+----------------
+Table of Content
+----------------
+1. Primary_styles_section
+2. Secondary_styles_section
+3. Main_section
+4. Header_section
+5. Content_section
+6. Footer_section
+----------------
+*/
+
+
+
+/* ----- Primary_styles_section Start ----- */
+* {
+   margin: 0;
+   padding: 0;
+}
+
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Roboto', sans-serif;
+   background: #FFF;
+}
+
+h1 {
+   font-size: 1.4em;
+}
+
+em {
+   font-style: normal;
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+}
+/* ----- Primary_styles_section End ----- */
+
+
+
+
+
+
+
+
+
+
+
+/* ----- Secondary_styles_section Start ----- */
+
+
+
+
+ /* ----- Secondary_styles_section End ----- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----- Main_section Start ----- */
+.main{
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+    .title{
+        font-weight: 300;
+        font-style: normal;
+        font-size: 40px;
+        line-height: 50px;
+    }
+}
+ /* ----- Main_section End ----- */
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----- Header_section Start ----- */
+.header{
+    width: 80%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+
+    &__top{
+        width: 100%;
+        min-height: 168px;
+        height: auto;
+    }
+
+    &__bottom{
+        width: 100%;
+        min-height: 460px;
+        height: auto;
+        .breadcrumb{
+           
+        }
+    }
+    
+}
+ /* ----- Header_section End ----- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----- Content_section Start ----- */
+ .content{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 662px;
+    height: auto;
+    background-color: #3748AA;
+
+    &__body{
+        width: 80%;
+        height: auto;
+        padding: 100px 0;
+
+
+        &__title{
+            color: white;
+        }
+    }
+ }
+ /* ----- Content_section End ----- */
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+/* ----- Footer_section Start ----- */
+.footer{
+
+}
+ /* ----- Footer_section End ----- */
+
+

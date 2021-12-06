@@ -1,19 +1,13 @@
 <template>
-  <div class="home">
-
-  </div>
+    <router-view></router-view>
 </template>
 
 <script>
-
 export default {
-  components: {
 
-  }
 }
 </script>
 
-
-<style lang="scss">
+<style>
 
 </style>
