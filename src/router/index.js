@@ -7,14 +7,18 @@ const routes = [
   {
     path: '/',
     component: () => import('../layouts/Empty.vue'),
-    children: [{ path: 'home', name: 'Home', component: () => import('../views/Home.vue')}]
+    children: [
+      { path: '', name: 'Home', component: () => import('../views/Home.vue')}
+    ]
   },
   {
     path: '/',
     component: () => import('../layouts/MainLayout.vue'),
     children: [
-      {path: '/form', name: 'Home', component: () => import('../views/Form.vue')},
-    ]
+      {path: '/form', name: 'Form', component: () => import('../views/Form.vue')},
+      {path: '/form2', name: 'Form2', component: () => import('../views/Form2.vue')},
+    
+    ] 
   }
 
 ]
